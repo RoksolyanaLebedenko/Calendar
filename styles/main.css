@@ -27,14 +27,16 @@ body {
   top: 12%;
   right: 30%;
   text-decoration: none;
-  color: white; }
+  color: white;
+  font-size: 25px; }
 
 .icon-circle-left {
   position: absolute;
   top: 12%;
   left: 30%;
   text-decoration: none;
-  color: white; }
+  color: white;
+  font-size: 25px; }
 
 .month__header--name {
   line-height: 70px;
@@ -70,10 +72,11 @@ body {
   left: 25%;
   border-radius: 50%; }
 
-.today-number {
+.calendar__day--today  span {
   position: relative;
   z-index: 2;
-  color: white; }
+  color: white;
+}
 
 .calendar__day--note::after {
   content: "";
@@ -97,9 +100,10 @@ footer {
   width: 595px;
   margin: 0 auto;
   margin-top: 450px;
-  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3); }
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.3);
+  overflow: hidden; }
 
-.day-name {
+.calendar__day-name {
   font-size: 25px;
   float: left;
   width: 83px;
